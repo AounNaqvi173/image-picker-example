@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "image-picker-example",
-    "slug": "image-picker-example",
+    "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saoun_naqvi.test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40e37f42-408c-49aa-a3ed-4f820b8c3146"
+      }
+    },
+    "owner": "saoun_naqvi"
   }
 }
